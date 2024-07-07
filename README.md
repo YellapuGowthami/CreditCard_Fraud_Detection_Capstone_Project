@@ -82,4 +82,10 @@ Important features impacting the model’s decisions are identified.
 The final model’s performance is reported on the test set, comparing it against baseline models. The Logistic Regression model with SMOTE balancing demonstrated high recall and a strong ROC-AUC score.
 
 
-[report.html](file:///C:/Users/Yellapu%20Gowthami/Downloads/your_report.html)
+### Model Deployment
+#### Saving the Best Model
+The best-performing model is serialized using the pickle module for deployment:
+
+```python
+with open('load_model.pkl', 'wb') as file:
+    pickle.dump(load_model, file)
