@@ -84,7 +84,7 @@ The final model’s performance is reported on the test set, comparing it agains
 
 ### Model Deployment
 #### Saving the Best Model
-The best-performing model is serialized using the pickle module for deployment:
+The best-performing model is serialized using the pickle module for Deployment:
 
 ```python
 with open('load_model.pkl', 'wb') as file:
