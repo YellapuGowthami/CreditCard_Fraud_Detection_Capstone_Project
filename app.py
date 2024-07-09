@@ -10,7 +10,7 @@ def load_model(file_path):
     return model
 
 # Path to the model file
-model_path = 'best_model.pkl'  # replace with the correct path to your best_model.pkl
+model_path = 'load_model.pkl'  # replace with the correct path to your best_model.pkl
 
 # Load the model
 model = load_model(model_path)
